@@ -2,6 +2,12 @@ html {
 	background-color: rgba(72,160,255,0.25);
 	}
 
-p {
-	text-decoration: blink;
+h1 {
+	text-align: center;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	}
+	
+.links {
+	text-decoration: none;
 	}
