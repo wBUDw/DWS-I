@@ -72,20 +72,19 @@ h2, h3 {
 	}
 	
 a:link {
-color: rgb(89, 89, 89);
-}
+	color: rgb(89, 89, 89);
+	}
 
 a:visited {
-color: rgb(55, 255, 0);
-text-shadow: 1px 1px 1px #000;
-}
+	color: rgb(55, 255, 0);
+	text-shadow: 1px 1px 1px #000;
+	}
 
 a:hover {
-color: rgb(72, 160, 255);
-text-shadow: 1px 1px 1px #000;
-}
+	color: rgb(72, 160, 255);
+	text-shadow: 1px 1px 1px #000;
+	}
 
 a:active {
-rgb(255, 0, 0);
-
-}
+	color: rgb(255, 0, 0);
+	}
