@@ -64,7 +64,7 @@ h2, h3 {
 	font-size: 125%;
 	}
 	
-#img {
+.img {
 	border-style: ridge;
 	border-width: 2px;
 	border-color: #000;
