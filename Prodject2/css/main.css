@@ -10,6 +10,9 @@ body {
 	border-radius: 10px; 
 	-moz-border-radius: 10px; 
 	-webkit-border-radius: 10px;
+	box-shadow: 5px 5px 5px #00188e; 
+	-moz-box-shadow: 5px 5px 5px #00188e; 
+	-webkit-box-shadow: 5px 5px 5px #00188e;
 	margin: 50px
 	}
 
@@ -38,18 +41,24 @@ ul {
 }
 
 p {
-	text-align:center;
+	padding: 0px 25px 0px 25px;
+	margin: 10px auto 10px auto;
 }
 
 li {
 	text-align: left;
 }
 
+@font-family {
+	'Play';
+	src: url(http://fonts.googleapis.com/css?family=Play);
+}
+
 h1, h2, h3, h4 {
 	color: #fff;
 	text-shadow: 3px 3px 3px #000;
-	font-family: 'Anton', sans-serif;
-	text-indent: 20px
+	text-indent: 20px;
+	font-family: Play, sans-serif; 
 }
 
 h2, h3 {
@@ -58,6 +67,7 @@ h2, h3 {
 
 .milestone {
 	font-weight: normal;
+	padding: 0px 25px 0px 0px;
 	}
 	
 #rule {
@@ -72,19 +82,22 @@ h2, h3 {
 	}
 	
 a:link {
-	color: rgb(89, 89, 89);
+	color: rgb(0, 16, 96);
 	}
 
 a:visited {
-	color: rgb(55, 255, 0);
+	color: rgb(72, 160, 255);
 	text-shadow: 1px 1px 1px #000;
 	}
 
 a:hover {
-	color: rgb(72, 160, 255);
+	color: rgb(0, 0, 255);
 	text-shadow: 1px 1px 1px #000;
 	}
 
 a:active {
 	color: rgb(255, 0, 0);
 	}
+h4 {
+	font-style: italic
+}
