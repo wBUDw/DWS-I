@@ -64,6 +64,10 @@ p {
 .img {
 	display: block;
 	margin: 0 auto;
+}
+
+figcaption{
+	text-align: center;
 }	
 
 /* End of Style */
@@ -110,20 +114,48 @@ body {
 .comn1 {
 width: 70%;
 float: left;
-margin: 1%;
+margin: 40px auto;
 }
 
 .comn2 {
 width: 23.9%;
 float: left;
 overflow: auto;
-margin: 1%;
 display: block;
 margin: 0 auto;
 }
 
+.img1{
+margin: 0 auto;
+width: 87px;
+}
+
+.img2{
+margin: 0 auto;
+width: 106px;
+}
+
+.img3{
+margin: 0 auto;
+width: 220px;
+}
+
+.img4{
+margin: 0 auto;
+width: 220px;
+}
+
+.img5{
+margin: 0 auto;
+width: 218px;
+}
+
 .comn3{
 clear: left;
+}
+
+.bgi{
+	height: 130px;
 }
 
 /* End of Layout */
