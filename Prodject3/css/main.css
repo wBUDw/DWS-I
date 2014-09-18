@@ -1,9 +1,11 @@
 /* Style */
 
 @import url(http://fonts.googleapis.com/css?family=Play);
+
 html{
 	background: green
 }
+
 body {
 	background-color: #fff;
 }
@@ -92,11 +94,9 @@ a:active {
 
 body {
     width: 90%;
-    margin: 0 auto;
 }
 
 .comn1 {
-background: #fff;
 width: 70%;
 float: left;
 margin: 1%;
