@@ -7,6 +7,7 @@ html{
 }
 
 body {
+	font-size: 1em;
 	background: #fff;
 	border-style: solid;
     border-width: 10px;
@@ -16,7 +17,7 @@ body {
 	-webkit-border-radius: 10px;
 }
 
-.comn2 {
+aside {
 	background: linear-gradient(#9fd1ff,#5e95bf) ;
 	border-style: solid;
     border-width: 10px;
@@ -36,48 +37,63 @@ h1, h2, h3, h4 {
 }
 
 h1, h2, h3 {
-	text-align: center;
+	margin: 1% auto;
 }
 
-.bgi{
+header{
 	background: url("../Images/1411030933_American-football.png");
 	background-repeat: no-repeat;
 }
 
+h1{
+	font-size: 2em;
+	width: 35%;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+h3{
+	font-size: 1.25em;
+}
+
 h4 {
-	font-style: italic
+	font-size: 1.125em;
+	font-style: italic;
 }
 
 
 p {
+	font-size: 1em;
 	margin: 10px auto;
 }
 
-.milestone {
-	font-weight: normal;
-}
-	
 #rule {
-	font-size: 125%;
+	font-weight: bold;
 }
 	
 .img {
-	display: block;
 	margin: 0 auto;
 }
 
-figcaption{
-	text-align: center;
-}	
+#Images {
+	width: 28%;
+	padding: 1%
+}
 
 /* End of Style */
 
 /* Nav */
 
-.links{
+nav{	
 	width: 440px;
-	padding: 0;
 	margin: 0 auto;
+}
+
+#mainnav {
+	margin: 0;
+	padding: 0;
 }
 
 .navlinks {	
@@ -111,17 +127,17 @@ body {
     margin: 0 auto;
 }
 
-.comn1 {
+section {
 width: 70%;
 float: left;
 margin: 20px auto;
+padding: 1%;
 }
 
-.comn2 {
+aside {
 width: 23.9%;
 float: left;
 overflow: auto;
-display: block;
 margin: 0 auto;
 }
 
@@ -150,12 +166,13 @@ margin: 0 auto;
 width: 218px;
 }
 
-.comn3{
+footer{
 clear: left;
+padding: 1%;
 }
 
-.bgi{
-	Padding: 20px
+header{
+	Padding: 40px
 }
 
 /* End of Layout */
