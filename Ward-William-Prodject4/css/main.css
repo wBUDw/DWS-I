@@ -123,6 +123,34 @@ tr:hover{
 	background-color: #ffffa1;
 }
 
+.title{
+	float:left;
+	width: 100px;
+	text-align: right;
+}
+
+input[type="text"], input[type="email"] {
+	background-color: #d3d3d3;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="text"]:focus, input[type="email"]:focus {
+	background-color: #fff;
+	border: 1px solid rgb(0,0,255);
+}
+
+input[type="submit"] {
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background: linear-gradient(#9fd1ff,#5e95bf) ;
+}
+
+input[type="submit"]:hover {
+	border: 1px solid rgb(0,0,255);
+	color: #fff
+}
+
 /* End of Style */
 
 /* Nav */

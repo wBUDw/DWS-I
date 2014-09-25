@@ -192,7 +192,31 @@
 		<!-- aside/footer -->
 		<footer>
 			<h4 id="Ref">Contact Us</h4>
-			
+			<form action="http://example.com/join.php">
+				<lable class="title" for="fname" >First Name:</lable>
+				<input type="text" name="fname" placeholder="John" required="required" /></br>
+				<lable class="title" for="mname">Middle Initial:</lable>
+				<input type="text" name="mname"  placeholder="X" maxlength="1"/></br>
+				<lable class="title" for="lname">Last Name:</lable>
+				<input type="text" name="lname" placeholder="Doe" required="required" /></br>
+				<lable class="title" for="email">Email Address:</lable>
+				<input type="email" name="email" placeholder="example@123.com" required="required" /></br>
+				<p>Did this page inform you?</br>
+					<input type="radio" name="info" value="Yes" checked="checked" /> Yes
+					<input type="radio" name="info" value="No" /> No
+				</p>
+				<p><lable for="Hearofus">Where did you hear of this website?</lable></br>
+				<select name="Hearofus">
+				<option value="web">Website</option>
+				<option value="tv">TV</option>
+				<option value="radio">Radio</option>
+				<option value="word">Word of Mouth</option>
+				</select></p>
+				<p>What do you think of the site?</p>
+				<textarea name="comments">Please enter any comments...
+				</textarea></br>
+				<input type="submit" value="Send" />				
+			</form>
 			<h4>References</h4>
 			<ul>
 				<li><a href="http://en.wikipedia.org/wiki/American_football">wikipedia.org/wiki/American_football</a></li>
