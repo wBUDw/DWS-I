@@ -129,6 +129,11 @@ tr:hover{
 	text-align: right;
 }
 
+fieldset {
+	margin-right: 500px;
+	padding:10px
+}
+
 input[type="text"], input[type="email"] {
 	background-color: #d3d3d3;
 }
