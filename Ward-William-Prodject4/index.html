@@ -194,15 +194,15 @@
 			<h4 id="Ref">Contact Us</h4>
 			<form action="http://example.com/join.php">
 				<p><label class="title" for="fname" >First Name:</label>
-				<input type="text" name="fname" placeholder="John" required="required" /><br />
-				<label class="title" for="mname">Middle Initial:</label>
-				<input type="text" name="mname"  placeholder="X" maxlength="1"/><br />
-				<label class="title" for="lname">Last Name:</label>
-				<input type="text" name="lname" placeholder="Doe" required="required" /><br />
+				<input type="text" name="fname" id="fname" placeholder="John" required="required" /><br />
+				<label class="title" for="mname" >Middle Initial:</label>
+				<input type="text" name="mname" id="mname" placeholder="X" maxlength="1"/><br />
+				<label class="title" for="lname" >Last Name:</label>
+				<input type="text" name="lname" id="lname" placeholder="Doe" required="required" /><br />
 				<label class="title" for="email">Email Address:</label>
-				<input type="email" name="email" placeholder="example@123.com" required="required" /><br />
+				<input type="email" name="email" id="email" placeholder="example@123.com" required="required" /><br />
 				</p>
-				<p>Did this page inform you?</br>
+				<p>Did this page inform you?<br />
 					<input type="radio" name="info" value="Yes" checked="checked" /> Yes
 					<input type="radio" name="info" value="No" /> No
 				</p>
@@ -215,7 +215,7 @@
 				</select></p>
 				<p>What do you think of the site?</p>
 				<textarea name="comments">Please enter any comments...
-				</textarea></br>
+				</textarea><br />
 				<input type="submit" value="Send" />			
 			</form>
 			<h4>References</h4>
